@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Outfit:wght@100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Fraunces", serif;
+  --font-sans: "Outfit", sans-serif;
+
+  --color-brand-espresso: #2A1A12;
+  --color-brand-chocolate: #8B5A36;
+  --color-brand-caramel: #A67C52;
+  --color-brand-honey: #C8A878;
+  --color-brand-cream: #FDF8F1;
+  --color-brand-paper: #F5EFE6;
+  --color-brand-muted: #3D2B1F;
+  --color-brand-honey-warm: #E6B75A;
+  --color-brand-white: #FFFFFF;
+}
+
+@layer base {
+  body {
+    @apply bg-brand-cream text-brand-espresso font-sans antialiased text-[20px] overflow-x-hidden;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
+
+.text-editorial {
+  font-family: var(--font-serif);
+}
+
+.btn-primary {
+  @apply bg-brand-caramel text-brand-white px-12 py-5 text-[12px] font-bold uppercase tracking-[0.3em] hover:brightness-110 transition-all shadow-xl;
+}
+
+/* Decorative Utils */
+.bg-grain {
+  background-image: url("https://www.transparenttextures.com/patterns/natural-paper.png");
+}
+
+.botanical-accent {
+  @apply opacity-[0.04] pointer-events-none absolute -z-10;
+}

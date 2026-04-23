@@ -58,7 +58,6 @@ export default function EditableImage({ id, src: defaultSrc, alt, className = ""
         src={currentSrc}
         alt={alt}
         className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-        referrerPolicy="no-referrer"
       />
       
       {/* Upload Overlay */}

@@ -49,12 +49,8 @@ export default function Testimonials() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-16">
           {testimonials.map((t, index) => (
-            <motion.div
+            <div
               key={t.id}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: index * 0.1 }}
               className="bg-[#A67C52] p-16 md:p-24 rounded-sm shadow-[0_50px_100px_-20px_rgba(0,0,0,0.2)] border border-brand-espresso/5 backdrop-blur-sm"
             >
               <div className="flex gap-2 mb-12 text-brand-espresso/40">
@@ -71,7 +67,7 @@ export default function Testimonials() {
                 </div>
                 <p className="text-[14px] uppercase tracking-[0.4em] text-brand-cream/80 font-bold">{t.name}</p>
               </div>
-            </motion.div>
+            </div>
           ))}
         </div>
       </div>

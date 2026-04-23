@@ -27,10 +27,7 @@ export default function Hero() {
       </div>
 
       {/* ── Left: Text content ──────────────────────────────── */}
-      <motion.div
-        initial={{ opacity: 0, x: -30 }}
-        animate={{ opacity: 1, x: 0 }}
-        transition={{ duration: 1 }}
+      <div
         className="relative z-10 flex flex-col justify-center
                    w-full lg:w-[60%]
                    px-8 sm:px-14 lg:px-24
@@ -64,13 +61,6 @@ export default function Hero() {
 
         {/* Subheading + body */}
         <div className="space-y-8 relative z-10">
-          <div className="absolute inset-0 -z-10 pointer-events-none opacity-[0.07] overflow-hidden">
-            <img 
-              src="/C:/Users/HP/.gemini/antigravity/brain/bebe6cba-b6cd-43a6-8e52-21e27a88b673/botanical_shadow_background_1776883944339.png" 
-              alt="" 
-              className="w-full h-full object-cover -scale-x-100 translate-x-1/4"
-            />
-          </div>
           <h3 className="font-serif text-5xl md:text-7xl text-brand-caramel tracking-tight italic">
             Crafted for Quiet Moments
           </h3>
@@ -90,13 +80,10 @@ export default function Hero() {
             Shop Now
           </button>
         </div>
-      </motion.div>
+      </div>
 
       {/* ── Right: Full-bleed candle image ─────────────────── */}
-      <motion.div
-        initial={{ opacity: 0, scale: 1.04 }}
-        animate={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 1.3, ease: 'easeOut' }}
+      <div
         className="relative w-full lg:w-[50%] lg:absolute lg:right-0 lg:top-0 lg:h-full"
         style={{ minHeight: '320px' }}
       >
@@ -113,7 +100,7 @@ export default function Hero() {
         />
         {/* Soft bottom fade on mobile */}
         <div className="lg:hidden absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-brand-cream to-transparent pointer-events-none" />
-      </motion.div>
+      </div>
     </section>
   );
 }

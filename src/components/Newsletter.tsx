@@ -12,12 +12,7 @@ export default function Newsletter() {
       <div className="grid grid-cols-1 lg:grid-cols-2">
         {/* Content Side */}
         <div className="py-40 px-8 sm:px-12 lg:px-24 flex flex-col justify-center text-center lg:text-left relative z-10">
-            <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                className="space-y-12"
-            >
+            <div className="space-y-12">
                 <div className="space-y-4">
                     <span className="text-[12px] uppercase tracking-[0.6em] text-brand-cream/60 font-bold">Join the Circle</span>
                     <div className="w-12 h-px bg-brand-cream/20 mx-auto lg:mx-0" />
@@ -26,7 +21,7 @@ export default function Newsletter() {
                     Get 10% off your <br />
                     first order.
                 </h2>
-                <p className="text-brand-cream/80 text-4xl max-w-2xl font-light leading-relaxed">
+                <p className="font-sans text-brand-cream/80 text-4xl max-w-2xl leading-relaxed">
                     Receive exclusive early access to restocks, limited editions, and curated self-care rituals.
                 </p>
                 
@@ -44,7 +39,7 @@ export default function Newsletter() {
                         Subscribe
                     </button>
                 </form>
-            </motion.div>
+            </div>
         </div>
 
         {/* Image Side */}

@@ -40,12 +40,8 @@ export default function Gallery() {
 
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
           {galleryImages.map((img, idx) => (
-            <motion.div
+            <div
               key={idx}
-              initial={{ opacity: 0, scale: 0.95 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              viewport={{ once: true }}
-              transition={{ delay: idx * 0.1 }}
               className="aspect-square relative overflow-hidden group shadow-lg"
             >
                 <div className="w-full h-full group-hover:scale-110 transition-transform duration-700">
@@ -56,7 +52,7 @@ export default function Gallery() {
                         aspectRatio="aspect-square"
                     />
                 </div>
-            </motion.div>
+            </div>
           ))}
         </div>
       </div>

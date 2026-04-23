@@ -11,25 +11,25 @@ const products = [
     id: 1,
     name: 'Calm Lavender',
     price: '$34.00',
-    image: 'https://images.unsplash.com/photo-1570110375086-6353dbe6f0ff?auto=format&fit=crop&q=80&w=800',
+    image: 'https://images.unsplash.com/photo-1605651202774-7d573fd3f12d?auto=format&fit=crop&q=80&w=800',
   },
   {
     id: 2,
     name: 'Citrus Blossom',
     price: '$32.00',
-    image: 'https://images.unsplash.com/photo-1602874136444-486008892fe5?auto=format&fit=crop&q=80&w=800',
+    image: 'https://images.unsplash.com/photo-1596433809252-260c2745dfdd?auto=format&fit=crop&q=80&w=800',
   },
   {
     id: 3,
     name: 'Vanilla & Cozy',
     price: '$34.00',
-    image: 'https://images.unsplash.com/photo-1621238914652-32b49c71618a?auto=format&fit=crop&q=80&w=800',
+    image: 'https://images.unsplash.com/photo-1570110375086-6353dbe6f0ff?auto=format&fit=crop&q=80&w=800',
   },
   {
     id: 4,
     name: 'Herbal & Woodley',
     price: '$36.00',
-    image: 'https://images.unsplash.com/photo-1596433809252-260c2745dfdd?auto=format&fit=crop&q=80&w=800',
+    image: 'https://images.unsplash.com/photo-1602874136444-486008892fe5?auto=format&fit=crop&q=80&w=800',
   }
 ];
 
@@ -60,12 +60,9 @@ export default function FeaturedProducts() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-20 gap-y-48">
           {products.map((product, index) => (
-            <motion.div
+            <div
               key={product.id}
-              initial={{ opacity: 0, y: 40 }}
-              whileInView={{ opacity: 1, y: index % 2 === 0 ? 0 : 80 }}
-              viewport={{ once: true }}
-              transition={{ delay: index * 0.15, duration: 0.8 }}
+              style={{ transform: `translateY(${index % 2 === 0 ? '0' : '80px'})` }}
               className="text-center group"
             >
               <div className="relative mb-12 overflow-hidden shadow-[0_40px_100px_-20px_rgba(0,0,0,0.5)] rounded-sm">
@@ -91,7 +88,7 @@ export default function FeaturedProducts() {
                 <h3 className="font-serif text-5xl text-brand-white group-hover:opacity-70 transition-opacity leading-tight">{product.name}</h3>
                 <p className="text-[22px] uppercase tracking-[0.3em] text-brand-cream/80 font-bold">{product.price}</p>
               </div>
-            </motion.div>
+            </div>
           ))}
         </div>
       </div>

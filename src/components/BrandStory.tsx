@@ -32,9 +32,9 @@ export default function BrandStory() {
           <div className="relative pl-12">
             <div className="aspect-[4/5] overflow-hidden rounded-sm shadow-[0_60px_120px_-30px_rgba(0,0,0,0.5)] border-[24px] border-brand-white rotate-2">
                 <EditableImage 
-                    id="v2_brand_story_main"
-                    src="https://images.unsplash.com/photo-1602851612253-f62243063f5d?auto=format&fit=crop&q=80&w=1200"
-                    alt="Sustainable ingredients and essential oils"
+                    id="v3_brand_story_nature"
+                    src="https://images.unsplash.com/photo-1605651202774-7d573fd3f12d?auto=format&fit=crop&q=80&w=1200"
+                    alt="Sustainable ingredients, essential oils and handcrafted candles"
                     aspectRatio="aspect-auto"
                 />
             </div>

@@ -29,7 +29,7 @@ const products = [
     id: 4,
     name: 'Herbal & Woodley',
     price: '$36.00',
-    image: 'https://images.unsplash.com/photo-1602874136444-486008892fe5?auto=format&fit=crop&q=80&w=800',
+    image: '/herbal-woody-candle.png',
   }
 ];
 
@@ -72,7 +72,7 @@ export default function FeaturedProducts() {
                 </div>
                 
                 <EditableImage 
-                    id={`v2_prod_${product.id}`}
+                    id={`v4_prod_${product.id}`}
                     src={product.image}
                     alt={product.name}
                     className="bg-brand-cream group-hover:scale-110 transition-transform duration-1000"

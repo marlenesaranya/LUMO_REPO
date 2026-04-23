@@ -1,20 +1,120 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🕯️ Lumo — Luxury Candle Website
 
-# Run and deploy your AI Studio app
+Lumo is a modern, minimal e-commerce website designed for a luxury candle brand.
+It focuses on calm aesthetics, soft typography, and a premium user experience inspired by high-end fragrance brands.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/46ec303a-0ef1-4fc9-8a4c-4e158932bcab
+## ✨ Features
 
-## Run Locally
+* 🎨 Minimal & luxury UI design
+* 🕯️ Aesthetic hero section with serene branding
+* 📱 Fully responsive layout
+* 🛒 Product showcase section
+* 🌿 Clean and calming color palette
+* ⚡ Fast and lightweight frontend
 
-**Prerequisites:**  Node.js
+---
 
+## 🖼️ Preview
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+![Lumo Preview](./public/preview.png)
+
+---
+
+## 🚀 Tech Stack
+
+* **Frontend:** React / Next.js
+* **Styling:** Tailwind CSS
+* **Deployment:** Vercel
+
+---
+
+## 📂 Project Structure
+
+```
+/components   → UI components  
+/pages        → Main pages  
+/public       → Images & assets  
+/styles       → Global styles  
+```
+
+---
+
+## 🛠️ Installation & Setup
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/marlenesaranya/LUMO_REPO.git
+```
+
+2. Navigate into the project:
+
+```bash
+cd lumo-candles
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Run the development server:
+
+```bash
+npm run dev
+```
+
+5. Open in browser:
+
+```
+http://localhost:3000
+```
+
+---
+
+## 🌐 Deployment
+
+This project is deployed using **Vercel**.
+
+To deploy:
+
+* Push your code to GitHub
+* Import the repo into Vercel
+* Click **Deploy**
+
+---
+
+## 💡 Inspiration
+
+Inspired by luxury fragrance brands focusing on:
+
+* Calm user experience
+* Minimal design
+* Emotional storytelling
+
+---
+
+## 📌 Future Improvements
+
+* 🛒 Add full e-commerce functionality
+* 🔍 Search & filtering system
+* 💳 Payment integration
+* ⭐ User reviews
+
+---
+
+## 👤 Author
+
+**Marlene**
+Computer Science Student | AI & Web Development
+
+---
+
+## ⭐ Show your support
+
+If you like this project, give it a ⭐ on GitHub!
+
+---

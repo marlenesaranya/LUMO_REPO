@@ -33,8 +33,8 @@ export default function BrandStory() {
             <div className="aspect-[4/5] overflow-hidden rounded-sm shadow-[0_60px_120px_-30px_rgba(0,0,0,0.5)] border-[24px] border-brand-white rotate-2">
                 <EditableImage 
                     id="v3_brand_story_nature"
-                    src="https://images.unsplash.com/photo-1605651202774-7d573fd3f12d?auto=format&fit=crop&q=80&w=1200"
-                    alt="Sustainable ingredients, essential oils and handcrafted candles"
+                    src="/eco-candle-blog.jpg"
+                    alt="Eco-friendly home and candle inspiration from nature"
                     aspectRatio="aspect-auto"
                 />
             </div>

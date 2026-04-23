@@ -11,19 +11,19 @@ const products = [
     id: 1,
     name: 'Calm Lavender',
     price: '$34.00',
-    image: 'https://images.unsplash.com/photo-1605651202774-7d573fd3f12d?auto=format&fit=crop&q=80&w=800',
+    image: '/calm-lavender.jpg',
   },
   {
     id: 2,
     name: 'Citrus Blossom',
     price: '$32.00',
-    image: 'https://images.unsplash.com/photo-1596433809252-260c2745dfdd?auto=format&fit=crop&q=80&w=800',
+    image: '/citrus-blossom.jpg',
   },
   {
     id: 3,
     name: 'Vanilla & Cozy',
     price: '$34.00',
-    image: 'https://images.unsplash.com/photo-1570110375086-6353dbe6f0ff?auto=format&fit=crop&q=80&w=800',
+    image: '/vanilla-cozy.jpg',
   },
   {
     id: 4,

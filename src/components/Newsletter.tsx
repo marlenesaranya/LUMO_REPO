@@ -46,8 +46,8 @@ export default function Newsletter() {
         <div className="hidden lg:block relative h-full min-h-[700px]">
             <EditableImage 
                 id="newsletter_side"
-                src="https://images.unsplash.com/photo-1608501821300-4f99e58baf77?auto=format&fit=crop&q=80&w=1200"
-                alt="Cozy reading corner with candlelight"
+                src="/stobbeton-candle.png"
+                alt="Beautiful Stobbeton candle with flowers"
                 className="absolute inset-0 object-cover"
                 aspectRatio="aspect-auto"
             />

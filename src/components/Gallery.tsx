@@ -8,23 +8,23 @@ import EditableImage from './ui/EditableImage';
 
 const galleryImages = [
   {
-    url: 'https://images.unsplash.com/photo-1570110375086-6353dbe6f0ff?auto=format&fit=crop&q=80&w=800',
+    url: 'https://images.unsplash.com/photo-1602874801007-bd458bb1b8b6?auto=format&fit=crop&q=80&w=800',
     alt: 'Candle on a bedside table'
   },
   {
-    url: 'https://images.unsplash.com/photo-1612198526331-7bc98126742b?auto=format&fit=crop&q=80&w=800',
+    url: 'https://images.unsplash.com/photo-1608501821300-4f99e58baf77?auto=format&fit=crop&q=80&w=800',
     alt: 'Living room atmosphere'
   },
   {
-    url: 'https://images.unsplash.com/photo-1621238914652-32b49c71618a?auto=format&fit=crop&q=80&w=800',
+    url: 'https://images.unsplash.com/photo-1596433809252-260c2745dfdd?auto=format&fit=crop&q=80&w=800',
     alt: 'Candle light glow'
   },
   {
-    url: 'https://images.unsplash.com/photo-1544465544-1b71aee9dfa3?auto=format&fit=crop&q=80&w=800',
+    url: 'https://images.unsplash.com/photo-1570110375086-6353dbe6f0ff?auto=format&fit=crop&q=80&w=800',
     alt: 'Minimal corner'
   },
   {
-    url: 'https://images.unsplash.com/photo-1603006905003-be475563bc59?auto=format&fit=crop&q=80&w=800',
+    url: 'https://images.unsplash.com/photo-1605651202774-7d573fd3f12d?auto=format&fit=crop&q=80&w=800',
     alt: 'Artisanal process'
   }
 ];

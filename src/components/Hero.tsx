@@ -42,13 +42,13 @@ export default function Hero() {
               <polygon points="7,0 14,12 7,24 0,12" />
             </svg>
           </div>
-          <p className="text-[16px] sm:text-[18px] uppercase tracking-[0.6em] text-brand-espresso font-bold">
+          <p className="text-[12px] sm:text-[14px] uppercase tracking-[0.6em] text-brand-espresso font-bold">
             Natural&nbsp;·&nbsp;Artisanal&nbsp;·&nbsp;Timeless
           </p>
         </div>
 
         {/* Main title */}
-        <h2 className="font-serif text-[8rem] sm:text-[11rem] lg:text-[14rem] text-brand-caramel leading-[0.8] tracking-tighter">
+        <h2 className="font-serif text-[6rem] sm:text-[8rem] lg:text-[10rem] text-brand-caramel leading-[0.9] tracking-tighter">
           Refined<br />Ambience
         </h2>
 
@@ -60,11 +60,11 @@ export default function Hero() {
         </div>
 
         {/* Subheading + body */}
-        <div className="space-y-8 relative z-10">
-          <h3 className="font-serif text-5xl md:text-7xl text-brand-caramel tracking-tight italic">
+        <div className="space-y-6 relative z-10">
+          <h3 className="font-serif text-3xl md:text-5xl text-brand-caramel tracking-tight italic">
             Crafted for Quiet Moments
           </h3>
-          <p className="text-brand-espresso/80 text-3xl font-light leading-relaxed max-w-2xl mx-auto lg:mx-0">
+          <p className="text-brand-espresso/80 text-xl md:text-2xl font-light leading-relaxed max-w-2xl mx-auto lg:mx-0">
             An experience of elegant scents and soft illumination, 
             <br className="hidden sm:block" /> bringing mindful living into your everyday space.
           </p>

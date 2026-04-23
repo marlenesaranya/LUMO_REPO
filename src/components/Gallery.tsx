@@ -46,7 +46,7 @@ export default function Gallery() {
             >
                 <div className="w-full h-full group-hover:scale-110 transition-transform duration-700">
                     <EditableImage 
-                        id={`gallery_${idx}`}
+                        id={`v2_gallery_${idx}`}
                         src={img.url}
                         alt={img.alt}
                         aspectRatio="aspect-square"

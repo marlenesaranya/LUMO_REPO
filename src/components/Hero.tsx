@@ -29,15 +29,15 @@ export default function Hero() {
       {/* ── Left: Text content ──────────────────────────────── */}
       <div
         className="relative z-10 flex flex-col justify-center
-                   w-full lg:w-[60%]
-                   px-8 sm:px-14 lg:px-24
+                   w-full lg:w-[50%]
+                   px-8 sm:px-14 lg:pl-32 lg:pr-12
                    py-20 lg:py-0
-                   text-center
+                   text-center lg:text-left
                    space-y-12"
       >
         {/* Diamond + tag line */}
         <div className="space-y-6">
-          <div className="flex justify-center">
+          <div className="flex justify-center lg:justify-start">
             <svg width="24" height="36" viewBox="0 0 14 24" className="text-brand-caramel opacity-60" fill="currentColor">
               <polygon points="7,0 14,12 7,24 0,12" />
             </svg>
@@ -53,7 +53,7 @@ export default function Hero() {
         </h2>
 
         {/* Divider */}
-        <div className="flex items-center gap-6 max-w-[500px] mx-auto">
+        <div className="flex items-center gap-6 max-w-[500px] mx-auto lg:mx-0">
           <div className="h-px bg-brand-caramel/20 flex-grow" />
           <Sparkles className="w-6 h-6 text-brand-caramel opacity-30 shrink-0" />
           <div className="h-px bg-brand-caramel/20 flex-grow" />
@@ -64,7 +64,7 @@ export default function Hero() {
           <h3 className="font-serif text-5xl md:text-7xl text-brand-caramel tracking-tight italic">
             Crafted for Quiet Moments
           </h3>
-          <p className="text-brand-espresso/80 text-3xl font-light leading-relaxed max-w-2xl mx-auto">
+          <p className="text-brand-espresso/80 text-3xl font-light leading-relaxed max-w-2xl mx-auto lg:mx-0">
             An experience of elegant scents and soft illumination, 
             <br className="hidden sm:block" /> bringing mindful living into your everyday space.
           </p>
@@ -84,7 +84,7 @@ export default function Hero() {
 
       {/* ── Right: Full-bleed candle image ─────────────────── */}
       <div
-        className="relative w-full lg:w-[50%] lg:absolute lg:right-0 lg:top-0 lg:h-full"
+        className="relative w-full lg:w-[50%] lg:absolute lg:right-0 lg:top-0 lg:h-full lg:z-0"
         style={{ minHeight: '320px' }}
       >
         <img

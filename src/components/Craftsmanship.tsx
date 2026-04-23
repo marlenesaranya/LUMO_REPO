@@ -94,7 +94,7 @@ export default function Craftsmanship() {
                 {/* Image 1: Main Large */}
                 <div className="absolute top-0 right-0 w-[80%] aspect-[3/4] overflow-hidden rounded-sm shadow-[0_50px_100px_-20px_rgba(0,0,0,0.3)] border-[15px] border-brand-white z-20 -rotate-2">
                     <EditableImage 
-                        id="craftsmanship_main_1"
+                        id="v2_craftsmanship_main_1"
                         src="https://images.unsplash.com/photo-1602874801007-bd458bb1b8b6?auto=format&fit=crop&q=80&w=1000"
                         alt="Luxury candle lighting"
                         aspectRatio="aspect-auto"
@@ -104,7 +104,7 @@ export default function Craftsmanship() {
                 {/* Image 2: Secondary Offset */}
                 <div className="absolute bottom-0 left-0 w-[70%] aspect-[4/5] overflow-hidden rounded-sm shadow-[0_40px_80px_-15px_rgba(0,0,0,0.4)] border-[12px] border-brand-white z-30 rotate-3">
                     <EditableImage 
-                        id="craftsmanship_main_2"
+                        id="v2_craftsmanship_main_2"
                         src="https://images.unsplash.com/photo-1603006905003-be475563bc59?auto=format&fit=crop&q=80&w=800"
                         alt="Aesthetic candle setup"
                         aspectRatio="aspect-auto"

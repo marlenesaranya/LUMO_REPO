@@ -72,7 +72,7 @@ export default function FeaturedProducts() {
                 </div>
                 
                 <EditableImage 
-                    id={`product_${product.id}`}
+                    id={`v2_prod_${product.id}`}
                     src={product.image}
                     alt={product.name}
                     className="bg-brand-cream group-hover:scale-110 transition-transform duration-1000"
